@@ -4,7 +4,6 @@ import hangman_words as hw
 lives = 6
 print(hw.logo)
 chosen_word = rnd.choice(hw.word_list).upper()
-print(chosen_word)
 placeholder = "_" * len(chosen_word)
 
 print(" ".join(placeholder))
